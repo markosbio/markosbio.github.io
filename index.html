@@ -55,7 +55,7 @@
       position: relative;
     }
     header img {
-      max-width: 150px;
+      max-width: 180px;
       margin-bottom: 20px;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -116,11 +116,12 @@
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
+      transition: transform 0.4s, box-shadow 0.4s, background 0.4s;
     }
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transform: translateY(-5px) scale(1.03);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      background: linear-gradient(135deg, #dff4ec, #b3e6d1);
     }
     .card h3 {
       font-size: 1.1rem;
@@ -196,7 +197,7 @@
 
 <!-- HERO HEADER -->
 <header>
-  <img src="logo.png" alt="Markos Bio Logo">
+  <img src="logo-dark.svg" alt="Markos Bio Logo">
   <h1>Markos Bio</h1>
   <p>Building sustainable biotechnological solutions across health, environment, and innovation in Africa.</p>
 </header>
